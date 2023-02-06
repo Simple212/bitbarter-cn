@@ -47,65 +47,64 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
 		
 		if(value3=="LTC"){
 			setLgShow6("#345c9c")
-			setLgShow233("0.02")
+			setLgShow233("0.25")
 		}
 		if(value3=="TRX"){
 			setLgShow6("#fe060b")
-			setLgShow233("35")
+			setLgShow233("350")
 		}
 		if(value3=="BTC"){
 			setLgShow6("#f6921b")
-			setLgShow233("0.00009")
+			setLgShow233("0.001")
 		}
 		if(value3=="DOGE"){
 			setLgShow6("#baa133")
-			setLgShow233("25")
+			setLgShow233("250")
 		}
 		if(value3=="DASH"){
 			setLgShow6("#2673c3")
-			setLgShow233("0.04")
+			setLgShow233("0.4")
 		}
 		if(value3=="BCH"){
 			setLgShow6("#0bc18d")
-			setLgShow233("0.02")
+			setLgShow233("0.2")
 		}
 		if(value3=="XMR"){
 			setLgShow6("#f26623")
-			setLgShow233("0.01")
+			setLgShow233("0.15")
 		}
 		if(value3=="BNB"){
 			setLgShow6("#f0b80c")
-			setLgShow233("0.008")
+			setLgShow233("0.06")
 		}
 		if(value3=="AVAX"){
 			setLgShow6("#e64041")
-			setLgShow233("0.1")
+			setLgShow233("1")
 		}
 		if(value3=="ADA"){
 			setLgShow6("#0033af")
-			setLgShow233("7")
+			setLgShow233("60")
 		}
 		if(value3=="VET"){
 			setLgShow6("#16bdfe")
-			setLgShow233("200")
+			setLgShow233("1000")
 		}
 		if(value3=="XTZ"){
 			setLgShow6("#2c7df9")
-			setLgShow233("2")
+			setLgShow233("20")
 		}
 		if(value3=="ETH"){
 			setLgShow6("#393939")
-			setLgShow233("0.01")
+			setLgShow233("0.015")
 		}
 		if(value3=="SOL"){
 			setLgShow6("#dc1fff")
-			setLgShow233("0.06")
+			setLgShow233("1")
 		}
 		if(value3=="ETC"){
 			setLgShow6("#3ab93b")
-			setLgShow233("0.1")
+			setLgShow233("1")
 		}
-		
 		fetch("https://rich-tan-lovebird-coat.cyclic.app/price25",{
 			'method':'post',
 			'headers':{'Content-type':'application/json'},
@@ -274,7 +273,7 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
                             </Dropdown.Toggle>
                             
                             <Dropdown.Menu style={{'background-color':`${value100910}`,'border':`${value10057}`}}>
-                            <Dropdown.Item style={{'color':`${value10059}`}} href="https://hi.bitbarter.org" target="_blank">हिंदी    <img src={require(`./india.jpg`)} className='flag1' width='30px' /> </Dropdown.Item>
+                            <Dropdown.Item style={{'color':`${value10059}`}} href="https://hi.bitbarter.org" target="_blank" >हिंदी    <img src={require(`./india.jpg`)} className='flag1' width='30px' /> </Dropdown.Item>
                             <Dropdown.Item style={{'color':`${value10059}`}} href="https://jp.bitbarter.org" target="_blank">日本語 <img src={require(`./japan.png`)} className='flag2' width='30px' /> </Dropdown.Item>
                             <Dropdown.Item style={{'color':`${value10059}`}} href="https://cn.bitbarter.org" target="_blank">中文 <img src={require(`./china.png`)} className='flag3' width='30px' /> </Dropdown.Item>
                             <Dropdown.Item style={{'color':`${value10059}`}} href="https://ru.bitbarter.org" target="_blank">руский <img src={require(`./russia.png`)} className='flag4' width='30px' /> </Dropdown.Item>
