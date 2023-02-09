@@ -13,6 +13,8 @@ class App extends React.Component{
   constructor(){
     super()
     this.state={
+	  text_color2:"white",
+	  bottom_color2:'#25ace3',
 	  order_id:'',
       value876:'',
       address_23:'',
@@ -1135,13 +1137,14 @@ bnbvalidation = (event2)=>{
           :<div>{this.state.final_from=='ltc' &&this.state.final_to=='btc'
           ?<div>
           <Main2 value10={this.state.value10} value5={this.state.value5} value11={this.state.value11}  value6={this.state.value6} value3={this.state.value3} orderid={this.state.order_id} amount23={this.state.address569} value1005={this.state.address} final56={this.state.rec_address} backtohome2={this.home234}  final90={this.calltofinal}/>
-                                                                              {/* Footer begins */}
-      <Row className='row1 d-flex justify-content-center align-items-center'>
-        <Col className='col-md-12 d-flex justify-content-center align-items-center'>
-        <p className='b text-white text-center tc mt-4'>bitBarter © 2023</p>
-        </Col>
-      </Row>
-      {/* Footer ends */}
+          {/* Footer begins */}
+          <Row className='row1 d-flex justify-content-center align-items-center' style={{'color':`${this.state.text_color2}`,'background-color':`${this.state.bottom_color2}`}} >
+          <Col className='col-md-12 d-flex justify-content-center align-items-center'>
+          <p className='b text-center tc mt-4'>bitBarter © 2023</p>
+          </Col>
+          </Row>
+          {/* Footer ends */}
+          
           </div>
           :<div>{this.state.status=='final'
           ?<div>
