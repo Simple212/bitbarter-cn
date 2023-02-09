@@ -21,6 +21,9 @@ body{
 .dropdown-toggle::after{
 	display:none !important;
 }
+#name:focus{
+   outline:none;
+}
 .flag1{
 	margin-left:60px !important;
 }
