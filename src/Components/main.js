@@ -264,6 +264,14 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
                             </Nav.Link>
                             
                             <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink'>
+                            <Button className='br1 btn_login b shadow-4'>登录</Button>
+                            </Nav.Link>
+                            
+                            <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink'>
+                            <Button className='br1 btn_signup b shadow-4'>注册</Button>
+                            </Nav.Link>
+                            
+                            <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink'>
                             
                             <Dropdown>
                             
