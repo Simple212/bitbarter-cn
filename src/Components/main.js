@@ -364,8 +364,8 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
 
             <Row className='mt-0'>
             <Col className='col-md-12 text-black'>
-            <input id="name" className="input_address b  text-center tc input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder={`आपका ${value4} पता (अडैरस)`} onChange={event1} onFocus={value1006} />
-            <p className='b text-red text-center tc para3000' style={{'display':`${value500}`}} >कृपया एक मान्य {value4} पता दर्ज करें</p>
+            <input id="name" className="input_address b  text-center tc input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder={`你的 ${value4} 地址`} onChange={event1} onFocus={value1006} />
+            <p className='b text-red text-center tc para3000' style={{'display':`${value500}`}} >请有效 {value4} 输入地址</p>
             <p className='b text-red text-center tc para3000' style={{'display':`${value1500}`}} >请输入地址</p>
                 </Col>
             </Row>
