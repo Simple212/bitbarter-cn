@@ -64,11 +64,11 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto d-flex justify-content-center align-items-center">
-                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>Wallets <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png'  className='ms-2' width={'15px'}/>
-                        <span className="b span45 d-flex justify-content-center align-items-center">Working</span>
+                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>钱包<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png'  className='ms-2' width={'15px'}/>
+                        <span className="b span45 d-flex justify-content-center align-items-center">在职的</span>
                         </Nav.Link>
-                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>System Stauts <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png' className='ms-2' width={'15px'}/>
-                            <span className="b span45 d-flex justify-content-center align-items-center">Working</span></Nav.Link>
+                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>系统状况<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png' className='ms-2' width={'15px'}/>
+                        <span className="b span45 d-flex justify-content-center align-items-center">在职的</span></Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
                     </Container>
@@ -81,7 +81,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
         
         <Row className='d-flex justify-content-center align-items-center mt-0'>
         <Col className='col-md-12 d-flex justify-content-center align-items-center flex-column'>
-        <h2 className='b text-black text-center'>Order ID</h2>
+        <h2 className='b text-black text-center'>订单编号</h2>
         <h5 className="b text-black text-center">{orderid}</h5>
         </Col>
         
@@ -110,8 +110,8 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
             <Row className='d-flex justify-content-center align-items-center mt-4'>
 
                 <Col className='col-md-12'>
-                <h3 className='b text-black text-center h3_send'>Please send <span style={{'color':`${lgShow566}`}}>{amount23}</span> {value3} </h3>
-                    <p className="b text-black text-center para2005">to the following address.....</p>
+                <h3 className='b text-black text-center h3_send'>请发送<span style={{'color':`${lgShow566}`}}>{amount23}</span> {value3} </h3>
+                <p className="b text-black text-center fs-4">到以下地址.....</p>
                 </Col>xz
 
             </Row>
@@ -145,7 +145,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
             <Row className='d-flex justify-content-center align-items-center'>
                 <Col className='col-md-12'>
-                <p className='b text-black text-center mt-2 mb-2'>Awaiting Payment....</p>
+                <p className='b text-black text-center mt-2 mb-2 fs-4'>等待付款....</p>
                 <fds-circular-progress indeterminate="true"></fds-circular-progress>
                 </Col>
             </Row>
@@ -154,7 +154,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
             <Row className='d-flex justify-content-center align-items-center' onLoad={final90}>
                 <Col className='col-md-12'>
-                <h3 className='b text-black text-center h3_rec'>Receiving Address ... </h3>
+                <h3 className='b text-black text-center h3_rec'>收货地址...</h3>
                 <p className="b  text-black text-center para2006">{final56}</p>
                 </Col>
             </Row>
